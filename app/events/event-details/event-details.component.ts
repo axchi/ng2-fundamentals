@@ -11,6 +11,6 @@ import {Component} from '@angular/core'
 	]
 }) 
 
-export class EventDetailComponent {
+export class EventDetailsComponent {
 
 }
