@@ -21,7 +21,9 @@ import {
 	TOASTER_TOKEN,
 	JQ_TOKEN,
 	Toastr,
-	CollapsibleWellComponent
+	CollapsibleWellComponent,
+	SimpleModalComponent,
+	ModalTriggerDirective
 } from './common/index'
 
 import {appRoutes} from './routes'
@@ -49,6 +51,9 @@ declare let jQuery: Object
 		Error404Component,
 		SessionListComponent,
 		CollapsibleWellComponent,
+		SimpleModalComponent,
+		SimpleModalComponent,
+		ModalTriggerDirective,
 		DurationPipe
 	],
 	providers: [
