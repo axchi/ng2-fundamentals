@@ -10,7 +10,9 @@ import {
 	CreateEventComponent,
 	EventRouteActivator,
 	SessionListComponent,
-	DurationPipe
+	UpvoteComponent,
+	DurationPipe,
+	VoterService
 
 } from './events/index'
 
@@ -54,6 +56,7 @@ declare let jQuery: Object
 		SimpleModalComponent,
 		SimpleModalComponent,
 		ModalTriggerDirective,
+		UpvoteComponent,
 		DurationPipe
 	],
 	providers: [
@@ -67,6 +70,7 @@ declare let jQuery: Object
 			useValue: jQuery
 		},
 		EventRouteActivator,
+		VoterService,
 		AuthService,
 		{
 			provide: 'canDeactivateCreateEvent', 
